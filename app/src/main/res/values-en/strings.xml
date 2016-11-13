@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UEDControl</string>
+    <string name="action_add">Add</string>
+    <string name="action_add_patient">Add</string>
+    <string name="action_search_patient">Search</string>
+    <string name="action_sort_patient">Order</string>
+    <string name="btnAccept">Accept</string>
+    <string name="btnActivities">Programmed Activities</string>
+    <string name="btnAddContact">Add contact</string>
+    <string name="btnChat">chat</string>
+    <string name="btnClose">Close session</string>
+    <string name="btnDatePicker">Select date</string>
+    <string name="btnEntry">Sign in</string>
+    <string name="btnMenu">Menu</string>
+    <string name="btnPatientList">Patients\' list</string>
+    <string name="btnPreferences">Preferences</string>
+    <string name="btnProfile">Profile</string>
+    <string name="btnRecomendedActivities">Recommended Activities</string>
+    <string name="cbxSelectAll">Select all</string>
+    <string name="dataEmpty">Enter a value</string>
+    <string name="edtDescription">Description</string>
+    <string name="edtDescriptionMenu">Menu details</string>
+    <string name="edtDni">DNI</string>
+    <string name="edtName">Name</string>
+    <string name="edtSurname">Surname</string>
+    <string name="edtType">Type</string>
+    <string name="pass">Password</string>
+    <string name="passwordDigit">password must contains at least\\none digit</string>
+    <string name="passwordCase">password must contain at least\\none lower case and one upper case</string>
+    <string name="passwordLength">password must contain at least\\n 8 characters</string>
+    <string name="pref_activate_not">Enable notifications</string>
+    <string name="pref_font_size">Change font name</string>
+    <string name="pref_rememberuser_summary">Indicate if you want to store the user</string>
+    <string name="pref_rememberuser_title">Remember user</string>
+    <string name="title_activity_navigation_drawer"></string>
+    <string name="txvBd">Birthdate</string>
+    <string name="txvContact">Contact person(s)</string>
+    <string name="txvDateActivity">Activity date</string>
+    <string name="txvDetMenu">Menu details</string>
+    <string name="txvSelPatien">Select patient</string>
+    <string name="txvSelectPat">Select patients:</string>
+    <string name="user">User</string>
+</resources>

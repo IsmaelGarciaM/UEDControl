@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">UEDControl</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="btnEntry">Acceder</string>
+    <string name="title_activity_navigation_drawer" translatable="false">NavigationDrawerActivity</string>
+    <string name="btnProfile">Perfil</string>
+    <string name="btnPatientList">Listado de pacientes</string>
+    <string name="btnActivities">Actividades programadas</string>
+    <string name="btnMenu">Menu</string>
+    <string name="btnRecomendedActivities">Actividades recomendadas</string>
+    <string name="btnChat">Chat</string>
+    <string name="btnPreferences">Preferencias</string>
+    <string name="btnClose">Cerrar sesión</string>
+    <string name="edtName">Nombre</string>
+    <string name="edtSurname">Apellidos</string>
+    <string name="edtDni">DNI</string>
+    <string name="txvContact">Persona(s) de contacto</string>
+    <string name="btnAddContact">Añadir contacto</string>
+    <string name="txvBd">Fecha de nacimiento</string>
+    <string name="btnAccept">Aceptar</string>
+    <string name="txvDateActivity">Fecha de la actividad</string>
+    <string name="edtDescription">Descripción</string>
+    <string name="edtType">Tipo</string>
+    <string name="txvSelectPat">Seleccione pacientes:</string>
+    <string name="cbxSelectAll">Seleccionar todos</string>
+    <string name="txvDetMenu">Detalles del menú</string>
+    <string name="edtDescriptionMenu">Descripción del menú</string>
+    <string name="txvSelPatien">Seleccione paciente</string>
+    <string name="action_add_patient">Añadir</string>
+    <string name="action_sort_patient">Ordenar</string>
+    <string name="action_search_patient">Buscar</string>
+    <string name="action_add">Añadir</string>
+<string name="btnDatePicker">Seleccionar fecha</string>
+
+    <string-array name="sizes">
+        <item >12pt</item>
+        <item >13pt</item>
+        <item >14pt</item>
+        <item >15pt</item>
+    </string-array>
+
+
+    <string-array name="relationship">
+        <item>Parentesco</item>
+        <item>Cónyuge</item>
+        <item>Hijo/a</item>
+        <item>Padre</item>
+        <item>Madre</item>
+        <item>Otro/a</item>
+        <item>No familiar</item>
+    </string-array>
+
+
+</resources>

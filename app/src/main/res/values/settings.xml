@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_rememberuser_title">Recordar usuario</string>
+    <string name="pref_rememberuser_summary">Indicar si se quiere almacenar el usuario</string>
+    <string name="pref_font_size">Cambiar tamaño de fuente</string>
+    <string name="pref_activate_not">Activar notificaciones</string>
+
+
+
+</resources>
