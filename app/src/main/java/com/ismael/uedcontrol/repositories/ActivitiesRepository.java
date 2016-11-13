@@ -28,9 +28,9 @@ public class ActivitiesRepository extends ArrayList<Activitys> {
         Date d = new Date();
         java.sql.Date da = new java.sql.Date(d.getTime());
         Time t = new Time(d.getTime());
-        add(new Activitys(0, "Título", "Descripcioncilla", "Fisioterapia", da, t));
-        add(new Activitys(1, "Título", "Descripcioncilla", "Terapia Ocupacional", da, t));
-        add(new Activitys(2, "Título", "Descripcioncilla", "Regenarcion del alma", da, t));
+        add(new Activitys(0, "Taller libre", "Se proporcionan diversos materiales para estimular la creatividad", "Taller libre", da, t));
+        add(new Activitys(1, "Bingo", "Juego clásico del bingo", "Estimulación cognitiva", da, t));
+        add(new Activitys(2, "Gerontogimnasia", "Actividades físicas como calentamientos, relajacion, caminar...", "Psicomotricidad", da, t));
 
     }
 

@@ -31,7 +31,6 @@ public class ActAdapter extends RecyclerView.Adapter<ActAdapter.ActivityViewHold
     }
     @Override
     public void onBindViewHolder(ActivityViewHolder holder, int position) {
-        // holder.product_image.setImageResource(contacts.get(position).getmImage());
         holder.txvTitle.setText(activities.get(position).toString());
 
 
