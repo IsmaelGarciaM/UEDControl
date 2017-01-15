@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ShowFood"
+    style="@style/AppThemeFragment">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txvDateText"
+    style="@style/titleText"
+    android:text="@string/btnDatePicker"
+    android:layout_marginBottom="@dimen/margin"/>
+
+    <Button
+       style="@style/calendarButtonStyle"
+        android:id="@+id/btnDatePicker"
+        android:layout_below="@id/txvDateText"
+        android:layout_marginRight="@dimen/margin"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvDateFoodShown"
+        android:textSize="22sp"
+        android:layout_toRightOf="@id/btnDatePicker"
+        android:layout_alignBaseline="@id/btnDatePicker"
+        android:text="@string/txvDate"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/margin"
+        android:text="Menú del día"
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDatePicker"
+        android:id="@+id/txvDetMenu" />
+
+    <TextView
+        style="@style/titleText"
+        android:text="@string/txvDetMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_below="@+id/txvDetMenu"
+        android:id="@+id/txvDetailsMenu" />
+
+
+
+</RelativeLayout>

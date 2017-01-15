@@ -6,4 +6,76 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondColor</item>
+        <item name="colorPrimaryDark">@color/colorMenu</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+
+    <style name="AppThemeFragment" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondColor</item>
+        <item name="colorPrimaryDark">@color/colorMenu</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:paddingLeft">@dimen/margin</item>
+        <item name="android:paddingRight">@dimen/margin</item>
+        <item name="android:paddingTop">@dimen/margin</item>
+        <item name="android:paddingBottom">@dimen/margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/colorMenu</item>
+
+
+
+    </style>
+    <style name="itemStyle" parent="AppTheme.NoActionBar">
+        <item name="android:layout_marginLeft">@dimen/fab_margin</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin</item>
+        <item name="android:layout_marginTop">@dimen/fab_margin</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="error" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+    <style name="hint" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBars">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:actionMenuTextColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:actionMenuTextColor">@color/black</item>
+    </style>
+
+    <style name="titleText" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="calendarButtonStyle">
+        <item name="android:layout_width">80dp</item>>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:background">@mipmap/ic_calendar</item>
+    </style>
+
+    <style name="btnStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/backColor</item>
+    </style>
 </resources>

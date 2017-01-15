@@ -26,14 +26,13 @@
     <string name="edtSurname">Surname</string>
     <string name="edtType">Type</string>
     <string name="pass">Password</string>
-    <string name="passwordDigit">password must contains at least\\none digit</string>
-    <string name="passwordCase">password must contain at least\\none lower case and one upper case</string>
-    <string name="passwordLength">password must contain at least\\n 8 characters</string>
+    <string name="passwordDigit">password must contains at \nleast one digit</string>
+    <string name="passwordCase">password must contain at \nleast one lower case and one upper case</string>
+    <string name="passwordLength">password must contain at \nleast 8 characters</string>
     <string name="pref_activate_not">Enable notifications</string>
     <string name="pref_font_size">Change font name</string>
     <string name="pref_rememberuser_summary">Indicate if you want to store the user</string>
     <string name="pref_rememberuser_title">Remember user</string>
-    <string name="title_activity_navigation_drawer"></string>
     <string name="txvBd">Birthdate</string>
     <string name="txvContact">Contact person(s)</string>
     <string name="txvDateActivity">Activity date</string>
@@ -41,4 +40,38 @@
     <string name="txvSelPatien">Select patient</string>
     <string name="txvSelectPat">Select patients:</string>
     <string name="user">User</string>
+    <string-array name="sizes">
+        <item >12pt</item>
+        <item >13pt</item>
+        <item >14pt</item>
+        <item >15pt</item>
+    </string-array>
+
+
+    <string-array name="relationship">
+        <item>Parentesco</item>
+        <item>Cónyuge</item>
+        <item>Hijo/a</item>
+        <item>Padre</item>
+        <item>Madre</item>
+        <item>Otro/a</item>
+        <item>No familiar</item>
+    </string-array>
+    <string name="addAct">Add Activity</string>
+    <string name="addContact">Add Contact</string>
+    <string name="addMenu">Add Food</string>
+    <string name="addPat">Add Patient</string>
+    <string name="chat">Chat</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="edtTitleMenu">Menu title</string>
+    <string name="hello_blank_fragment">h</string>
+    <string name="home">Patients list</string>
+    <string name="particularAct">Recommendations</string>
+    <string name="patienProf">Patient profile</string>
+    <string name="settings">Settings</string>
+    <string name="stringActivity">Activity :</string>
+    <string name="titleActivities">Activities</string>
+    <string name="titleFood">Food</string>
+    <string name="txvDate">14/01/2017</string>
 </resources>

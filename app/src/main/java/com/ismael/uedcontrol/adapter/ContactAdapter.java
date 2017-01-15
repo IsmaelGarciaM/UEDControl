@@ -27,9 +27,9 @@ public class ContactAdapter extends ArrayAdapter<Contact> {
 
         if(item == null) {
             LayoutInflater ltInflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            item = ltInflater.inflate(R.layout.item_activity, null);
+            item = ltInflater.inflate(R.layout.item_chat, null);
             ch = new ContactHolder();
-            ch.txvName = (TextView) item.findViewById(R.id.txvInfoActivity);
+            ch.txvName = (TextView) item.findViewById(R.id.txvNameContact);
             item.setTag(ch);
         }
         else

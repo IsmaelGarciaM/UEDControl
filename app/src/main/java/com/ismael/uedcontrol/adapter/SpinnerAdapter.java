@@ -29,9 +29,9 @@ public class SpinnerAdapter extends ArrayAdapter<Patient>{
 
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View row = inflater.inflate(R.layout.item_activity, parent, false);
-        TextView v = (TextView) row.findViewById(R.id.txvInfoActivity);
-        v.setText(pats.get(position).toString());
+        View row = inflater.inflate(R.layout.item_chat, parent, false);
+        TextView v = (TextView) row.findViewById(R.id.txvNameContact);
+        v.setText(pats.get(position).getName() + " " + pats.get(position).getSurname());
         return row;
 
     }
@@ -42,10 +42,10 @@ public class SpinnerAdapter extends ArrayAdapter<Patient>{
     public View getDropDownView(int position, View convertView, ViewGroup parent) {
 
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View row = inflater.inflate(R.layout.item_activity, parent, false);
-        TextView v = (TextView)row.findViewById(R.id.txvInfoActivity);
+        View row = inflater.inflate(R.layout.item_chat, parent, false);
+        TextView v = (TextView)row.findViewById(R.id.txvNameContact);
 
-        v.setText(pats.get(position).toString());
+        v.setText(pats.get(position).getName()+ " " + pats.get(position).getSurname());
         return row;
     }
 }

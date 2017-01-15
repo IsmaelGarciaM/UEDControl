@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Recomm_Activities"
+    style="@style/AppThemeFragment">
+
+    <TextView
+        android:text="@string/txvSelPatien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:id="@+id/txvSelPatient" />
+
+    <Spinner
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="start"
+        android:layout_below="@+id/txvSelPatient"
+        android:id="@+id/spnSelPatient">
+
+
+    </Spinner>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spnSelPatient"
+        android:id="@+id/listRecommendedActivities">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

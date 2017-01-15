@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AddEditContact"
+    style="@style/AppThemeFragment">
+    <ImageButton
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        app:srcCompat="@drawable/user_icon"
+        android:background="@color/colorMenu"
+        android:id="@+id/addImageContact"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/margin"/>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/addImageContact"
+        android:id="@+id/tilNameContact"
+        android="@style/error"
+        app:errorEnabled="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtNameContact"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:hint="@string/edtName"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tilSurnameContact"
+        android="@style/error"
+        android:layout_below="@id/tilNameContact"
+        app:errorEnabled="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtsurnameContact"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:hint="@string/edtSurname"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tilDniContact"
+        android="@style/error"
+        android:layout_below="@id/tilSurnameContact"
+        app:errorEnabled="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtDniContact"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="@string/edtDni"
+            android:gravity="center"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/relationship"
+        android:id="@+id/spnRelationship"
+        android:layout_below="@+id/tilDniContact"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAccept"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnAcceptContact"
+        android:layout_below="@+id/spnRelationship"
+        android:background="@color/backColor"
+        android:layout_marginTop="50dp"/>
+</RelativeLayout>
+</ScrollView>

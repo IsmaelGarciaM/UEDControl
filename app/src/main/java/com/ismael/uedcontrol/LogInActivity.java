@@ -34,7 +34,7 @@ public class LogInActivity extends AppCompatActivity implements ILogin.View{
         btnEntry = (Button) findViewById(R.id.btnEntry);
         tilUser = (TextInputLayout) findViewById(R.id.tiluser);
         tilPass = (TextInputLayout) findViewById(R.id.tilpassword);
-        edtUser.setText("a");
+        edtUser.setText("PabloP");
         edtPassword.setText("aaaaaaA8");
         edtUser.addTextChangedListener(new TextWatcher() {
 
@@ -59,7 +59,7 @@ public class LogInActivity extends AppCompatActivity implements ILogin.View{
             public void onClick(View v) {
                 if(loginMvp.validateCredentials(edtUser.getText().toString(), edtPassword.getText().toString())) {
                     TherapistRepository.getInstance().add(new Therapist(edtUser.getText().toString(), "Apellidos", "DNI", "correo@gmail.com", "telefono", 454545, edtPassword.getText().toString()));
-                    Intent intent = new Intent(LogInActivity.this, NavigationDrawerActivity.class);
+                    Intent intent = new Intent(LogInActivity.this, HomeActivity.class);
                     startActivity(intent);
                 }
             }
@@ -76,5 +76,11 @@ public class LogInActivity extends AppCompatActivity implements ILogin.View{
                 break;
         }
 
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        this.finish();
     }
 }

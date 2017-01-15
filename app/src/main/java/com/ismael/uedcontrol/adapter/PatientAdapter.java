@@ -40,6 +40,7 @@ public class PatientAdapter extends ArrayAdapter<Patient>{
 
             ph.patient_image = (ImageView) item.findViewById(R.id.imgPatient);
             ph.txvPatientName = (TextView) item.findViewById(R.id.txvNamePatient);
+           // ph.txvBdPatient = (TextView) item.findViewById(R.id.txvBdPatient);
             item.setTag(ph);
         }
         else
@@ -47,6 +48,7 @@ public class PatientAdapter extends ArrayAdapter<Patient>{
 
         ph.patient_image.setImageResource(getItem(position).getImgProfile());
         ph.txvPatientName.setText(getItem(position).toString());
+//        ph.txvBdPatient.setText(getItem(position).getBirthdate().toString());
 
         return item;
 
@@ -55,6 +57,7 @@ public class PatientAdapter extends ArrayAdapter<Patient>{
     class PatientHolder{
         ImageView patient_image;
         TextView txvPatientName;
+        TextView txvBdPatient;
     }
 
 

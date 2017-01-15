@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PatientProfile"
+    style="@style/AppThemeFragment"
+    android:paddingLeft="50dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/user_icon"
+        android:id="@+id/imgPatient"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/titleText"
+        android:text="Nombre Paciente"
+        android:id="@+id/txvPatientName"
+        android:layout_below="@id/imgPatient"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/titleText"
+        android:text="Apellidos Paciente"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txvPatientSurname"
+        android:layout_below="@id/txvPatientName"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/titleText"
+        android:text="DNI Paciente"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txvPatientDni"
+        android:layout_below="@id/txvPatientSurname"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento"
+        android:layout_marginTop="20dp"
+        style="@style/titleText"
+        android:id="@+id/txvPatientBirthDate"
+        android:layout_below="@id/txvPatientDni"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/titleText"
+        android:text="@string/txvContact"
+        android:layout_below="@id/txvPatientBirthDate"
+        android:id="@+id/txvPatientContact"/>
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_below="@id/txvPatientContact"
+        android:id="@+id/listPatientContact"/>
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnAddContact"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnAddContactProfile"
+        android:layout_below="@id/listPatientContact"
+        android:background="@color/backColor"
+        />
+
+</RelativeLayout>
+</ScrollView>

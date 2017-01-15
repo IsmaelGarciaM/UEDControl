@@ -1,6 +1,7 @@
 package com.ismael.uedcontrol.repositories;
 
 import com.ismael.uedcontrol.R;
+import com.ismael.uedcontrol.model.Contact;
 import com.ismael.uedcontrol.model.Patient;
 
 import java.util.ArrayList;
@@ -12,7 +13,7 @@ import java.util.List;
 
 public class PatientRepository extends ArrayList<Patient> {
     public static PatientRepository patientRep;
-
+int i = 0;
     public static PatientRepository getInstance(){
 
         if(patientRep == null)
@@ -24,11 +25,18 @@ public class PatientRepository extends ArrayList<Patient> {
     private PatientRepository(){
         Date d = new Date();
         java.sql.Date da = new java.sql.Date(d.getTime());
-        add(new Patient("Antonio", "Martinez", "92196592A", da, R.drawable.img));
+        Patient p = new Patient("Antonio", "Martinez", "92196592A", da, R.drawable.img);
+        p.setFamily(new Contact(25, "Pepa", "Torres", "92196592A", "954546812", "Cónyuge", 45454, "passw"));
+        add(p);
         add(new Patient("Pedro", "Garcia", "75846592A", da,  R.drawable.img));
         add(new Patient("Manuel", "Soria", "78451236C", da,  R.drawable.img));
         add(new Patient("Joaquin", "Fernandez", "63254795V", da,  R.drawable.img));
         add(new Patient("Ramón", "Garcia", "96595214G", da,  R.drawable.img));
+        add(new Patient("Ramón", "Garcia", "96595214G", da,  R.drawable.img));
+
+        add(new Patient("Ramón", "Garcia", "96595214G", da,  R.drawable.img));
+        add(new Patient("Ramón", "Garcia", "96595214G", da,  R.drawable.img));
+
 
     }
 

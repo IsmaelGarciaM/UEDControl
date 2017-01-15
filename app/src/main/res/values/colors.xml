@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorError">#ff0d00</color>
-    <color name="colorMenu">#c6f5db</color>
+    <color name="colorMenu">#ecf7f1</color>
+    <color name="white">#ffffff</color>
+    <color name="secondColor">#b2d2f9</color>
+    <color name="backColor">#33b5bc</color>
+    <color name="black">#000000</color>
 </resources>

@@ -31,7 +31,11 @@ public class ActAdapter extends RecyclerView.Adapter<ActAdapter.ActivityViewHold
     }
     @Override
     public void onBindViewHolder(ActivityViewHolder holder, int position) {
-        holder.txvTitle.setText(activities.get(position).toString());
+        holder.txvTitle.setText(activities.get(position).getTitle());
+        holder.txvDesc.setText(activities.get(position).getDescription());
+        holder.txvType.setText(activities.get(position).getType());
+        holder.txvDate.setText(activities.get(position).getDate().toString());
+        holder.txvTime.setText(activities.get(position).getTime().toString());
 
 
     }
@@ -43,13 +47,17 @@ public class ActAdapter extends RecyclerView.Adapter<ActAdapter.ActivityViewHold
 
     public static class ActivityViewHolder extends RecyclerView.ViewHolder{
 
-        TextView txvTitle;
+        TextView txvTitle, txvDesc, txvType, txvDate, txvTime;
 
 
         public ActivityViewHolder(View item) {
             super(item);
 
-            txvTitle = (TextView) item.findViewById(R.id.txvInfoActivity);
+            txvTitle = (TextView) item.findViewById(R.id.txvTitleActivity);
+            txvDesc = (TextView) item.findViewById(R.id.txvDescriptionActivity);
+            txvType = (TextView) item.findViewById(R.id.txvTypeActivity);
+            txvDate = (TextView) item.findViewById(R.id.txvDateActivity);
+            txvTime = (TextView) item.findViewById(R.id.txvTime);
 
         }
     }

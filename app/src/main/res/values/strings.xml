@@ -3,7 +3,6 @@
     <string name="user">Usuario</string>
     <string name="pass">Contraseña</string>
     <string name="btnEntry">Acceder</string>
-    <string name="title_activity_navigation_drawer" translatable="false">NavigationDrawerActivity</string>
     <string name="btnProfile">Perfil</string>
     <string name="btnPatientList">Listado de pacientes</string>
     <string name="btnActivities">Actividades programadas</string>
@@ -19,25 +18,25 @@
     <string name="btnAddContact">Añadir contacto</string>
     <string name="txvBd">Fecha de nacimiento</string>
     <string name="btnAccept">Aceptar</string>
-    <string name="txvDateActivity">Fecha de la actividad</string>
+    <string name="btnDatePicker">Selecciona fecha</string>
     <string name="edtDescription">Descripción</string>
     <string name="edtType">Tipo</string>
     <string name="txvSelectPat">Seleccione pacientes:</string>
     <string name="cbxSelectAll">Seleccionar todos</string>
-    <string name="txvDetMenu">Detalles del menú</string>
+    <string name="txvDetMenu">Primer plato \n - Crema de calabaza \n\nSegundo plato \n - Estofado de ternera</string>
     <string name="edtDescriptionMenu">Descripción del menú</string>
     <string name="txvSelPatien">Seleccione paciente</string>
     <string name="action_add_patient">Añadir</string>
     <string name="action_sort_patient">Ordenar</string>
     <string name="action_search_patient">Buscar</string>
     <string name="action_add">Añadir</string>
-<string name="btnDatePicker">Seleccionar fecha</string>
+    <string name="txvDate">14/01/2017</string>
 
     <string-array name="sizes">
-        <item >12pt</item>
-        <item >13pt</item>
-        <item >14pt</item>
-        <item >15pt</item>
+        <item>12pt</item>
+        <item>13pt</item>
+        <item>14pt</item>
+        <item>15pt</item>
     </string-array>
 
 
@@ -51,5 +50,28 @@
         <item>No familiar</item>
     </string-array>
 
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home">Lista de pacientes</string>
+    <string name="titleActivities">Actividades</string>
+    <string name="titleFood">Comidas</string>
+    <string name="particularAct">Actividades recomendadas</string>
+    <string name="chat">Conversaciones</string>
+    <string name="settings">Configuración</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="patienProf">Perfil del paciente</string>
+    <string name="addAct">Añadir actividad</string>
+    <string name="addPat">Añadir Paciente</string>
+    <string name="addContact">Añadir contacto</string>
+    <string name="addMenu">Añadir menú</string>
+    <string name="edtTitleMenu">Título del menú</string>
+    <string name="stringActivity">Actividad :</string>
+    <string name="txvDateActivity">Fecha de la actividad</string>
 
 </resources>
